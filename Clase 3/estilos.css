@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+}
+body{
+font-family: 'Dancing Script', cursive;
+}
+
+.imagen_home{
+    background-image: url(./Imagenes/infinity\ war.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue;
+}
+.menu_superior{ 
+list-style: none;
+text-align: center;
+}
+.menu_superior li{
+    display: inline-block;
+}
+.menu_superior a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 3rem;
+    padding-left: 4rem;
+}
+.imagen_personajes{
+    background-color: black;
+}
+
+
+
+
+
+
+footer{
+    color: white;
+    text-align: center;
+}
