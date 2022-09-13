@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-size: 10px;
+}
+body{
+font-family: 'Dancing Script', cursive;
+}
+
+.imagen_home{
+    background-image: url(./Imagenes/infinity\ war.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue;
+}
+
+.menu_superior{ 
+list-style: none;
+text-align: center;
+}
+.menu_superior li{
+    display: inline-block;
+}
+.menu_superior a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 3rem;
+    padding-left: 4rem;
+}
+.imagen_personajes{
+    background-color: black;
+}
+.submenu{
+    list-style: none;
+}
+.submenu li{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    font-size: 25px;
+}
+.submenu{
+    position: absolute;
+    display: none;
+}
+.submenu li{
+    display: block;
+}
+.menu_superior li:hover ul{
+    display: block;
+}
+.submenu a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 3rem;
+    padding-left: 4rem;
+}
+.contenido{
+    background-color: aquamarine;
+    padding: 2rem;
+    width: 100%;
+}
+.contenido_didactico img{
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+}
+.contenido_didactico iframe{
+    width: 40%;
+}
+.contenido_thanos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+.Footer{
+    background-color: black;
+    padding: 2rem;
+    color: white;
+}
+.Bloque_footer{
+display: flex;
+justify-content: space-around;
+}
+.menuFooter{
+list-style: none;
+}
+.menuFooter a{
+    color: white;
+    text-decoration: none;
+}
