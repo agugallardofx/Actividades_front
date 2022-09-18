@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" class="contacto">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Clase 6/Web con flex/estilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu_superior">
+                <li> <a href="../index.html"> Home</a></li>
+                <li> <a href="./Personajes.html"> Personajes</a>
+                <ul class="submenu">
+                    <li><a href="./Personajes.html#Thanos"> Thanos</a></li>                    
+                    <li><a href="./Personajes.html#spiderman"> spiderman</a></li>
+                    <li><a href="./Personajes.html#Ironman"> Ironman</a></li>
+                    <li><a href="./Personajes.html#Hulk"> Hulk</a></li>
+                    <li><a href=""> Thor</a></li>
+                </ul>
+                </li> 
+                <li> <a href="./Contacto.html"> Contacto</a></li>
+                <li> <a href=""> Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="formulario">
+        <form action="">
+            <fieldset class="formulario_contenido">
+                <legend>Formulario de contacto</legend>
+
+                <label for="Nombre"> Nombre</label>
+                <input type="text" name="Nombre" id="Nombre" placeholder="Ingresa tu nombre">
+
+                <label for="Email"> Correo electronico </label>
+                <input type="email" name="Email" id="Email" placeholder="Ingresa tu email">
+
+                <label for="password"> Contraseña</label>
+                <input type="password" name="password" id="password" placeholder="Ingresa tu contraseña">
+
+                <label for="fecha"> Fecha de nacimiento</label>
+                <input type="date" name="fecha">
+
+                <label for="mensaje"> Realizar un comentario</label>
+                <textarea name="mensaje" id="mensaje" cols="20" rows="5" maxlength="200" placeholder="Escriba su comentario"></textarea>
+
+                <input type="submit" class="submit">
+
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
