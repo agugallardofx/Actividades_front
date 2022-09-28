@@ -8,7 +8,7 @@ html{
     font-size: 10px;
 }
 body{
-font-family: 'Dancing Script', cursive;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .imagen_home{
@@ -56,15 +56,19 @@ text-align: center;
 }
 .menu_superior li:hover ul{
     display: block;
-    background-color: aliceblue;
+    background-color: black;
 }
 .submenu a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: 700;
     font-size: 3rem;
     padding-left: 4rem;
+    border-radius: 3px;
 }
+
+
+/* --------------------Pagina Personajes------------------ */
 .contenido{
     background-color: aquamarine;
     padding: 2rem;
@@ -84,8 +88,12 @@ text-align: center;
     align-items: center;
 }
 
+
+
+/* ---------------Pagina contacto---------------------- */
 .contacto{
-    background-color: aqua;
+    background: rgb(190,193,236);
+    background: linear-gradient(90deg, rgba(190,193,236,1) 0%, rgba(236,195,235,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 .formulario{
@@ -95,42 +103,49 @@ text-align: center;
     align-items: center;
 }
 .formulario_contenido{
-    width: 50vh;
+    width: 80vh;
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
-    gap: 2vh;
+    gap: 3vh;
 }
 .formulario_contenido{
     text-decoration: none;
     font-size: 2rem;
     font-weight: 700;
+    font-family: 'Ubuntu', sans-serif
 }
+.formulario_contenido input, .formulario_contenido textarea{
+    font-family: 'Ubuntu', sans-serif
+}
+
 input{
     background-color: aliceblue;
     border: none;
     border-bottom: 1px solid;
-    font-family: 'Courier New', Courier, monospace
-}
+    padding: 10px
+;}
 textarea{
     border: none;
     font-family: 'Courier New', Courier, monospace;
 }
 .submit{
+    padding: 15px;
     background-color: black;
     color: white;
     border: 2px solid;
 }
 .submit:hover{
     background-color: blue;
-transition: 2s all;
+    transition: 2s all;
+    border: 2px solid blue;
 }
 
 
 
 
 
-
+/* ------------------Footer------------------ */
 
 .Footer{
     background-color: black;
