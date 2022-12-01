@@ -2,6 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Footer.css'
 
+
 const Footer = () => {
     return(
         <footer className="text-bg-dark p-3">
@@ -11,9 +12,9 @@ const Footer = () => {
                 <span></span>
             </h2>
             <div className="notificacion">
-                <input type="email" name="email"
+                <input type="email" name="email" 
                     placeholder="Ingresa tu email para recibir nuestro boletin de novedades"/>
-                <input class="bg-danger" type="button" name="suscribe" value="SUSCRIBIRME"/>
+                    <button className="bg-danger" onClick={()=> {alert("Suscripcion completada")}}>SUSCRIBIRME</button>
             </div>
         </aside>
     </div>

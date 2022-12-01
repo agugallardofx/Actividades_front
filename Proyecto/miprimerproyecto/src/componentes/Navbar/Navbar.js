@@ -20,8 +20,8 @@ const Menu = () => {
                     >
                         <Nav.Link className="text-white" href="/">Home</Nav.Link>
                         <Nav.Link className="text-white" href="/Contacto">Contacto</Nav.Link>
-                        <Nav.Link className="text-white" href="/Nosotros">
-                            Nosotros
+                        <Nav.Link className="text-white" href="/faq">
+                            Preguntas Frecuentes
                         </Nav.Link>
                     </Nav>
                     <Form className="d-flex">
@@ -35,7 +35,7 @@ const Menu = () => {
                     </Form>
                 </Navbar.Collapse>
             </Container>
-        </Navbar>
+        </Navbar >
     );
 }
 

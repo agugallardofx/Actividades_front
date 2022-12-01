@@ -1,5 +1,6 @@
-body {
+*{
   margin: 0;
+  padding: 0%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,5 +11,140 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.App{
+  max-width: 1550px;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/*-----------------Productos-------------*/
+
+.title{
+  font-size: 2.5rem;
+  padding: 10rem 0 0 0;
+  color: black;
+}
+
+.productos{
+  padding: 5rem 1rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr) );
+  gap: 3rem 2rem;
+  box-sizing: border-box;
+}
+
+.producto{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 10px 10px 2px black;
+  border: 6px solid transparent;
+  border-radius: 5px;
+}
+.producto:hover{
+  border: 6px solid;
+}
+.producto-img img{
+  width: 310px;
+}
+.producto-footer{
+  padding: 1rem;
+}
+.producto-footer h1{
+  font-weight: 700;
+  color: rgba(0, 0, 0, .555);
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.precio{
+  font-size: 2rem;
+  color: black
+}
+.button{
+  width: 100%;
+  height: 45px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem 3rem;
+  padding: 0 1rem;
+  margin: 1rem;
+}
+
+.btn{
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button button{
+  background-color: #3033d3;
+  max-width: 250px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 600;
+}
+
+.button div{
+  background-color: #08a05c;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  margin-left: -2rem;
+  border-radius: 5px;
+}
+.button div a{
+  color: white;
+  font-weight: 700;
+}
+button div a:hover{
+  color: white;
+}
+
+
+
+
+/* ------------------Preguntas Frecuentes-----------------*/
+
+.seccionPreguntas{
+  display: block;
+  width: 80vw;
+  margin: 0 auto;
+}
+.tituloPreguntas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: rgb(26, 209, 124);
+}
+
+.seccionPreguntas p{
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  font-size: 20px;
+}
+.imagenPreguntas{
+  display: inline-block;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  width: 80vw;
+}
+.imagenPreguntas img{
+display: inline-block;
+justify-content: center;
+margin: 0 auto;
+padding: 5px;
 }
 

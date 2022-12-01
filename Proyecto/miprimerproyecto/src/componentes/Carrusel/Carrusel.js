@@ -10,8 +10,8 @@ function Carrusel() {
                     className="d-block w-100"
                     src={Imagen1}
                     alt="First slide"
+                    /**4900 */
                 />
-              
             </Carousel.Item>
             <Carousel.Item>
                 <img
